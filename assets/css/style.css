@@ -17,14 +17,14 @@ min-height: 100vh;
 
 .encabezado{
     grid-area: encabezado;
-    background-color: bisque;
+    background-color: rgb(235, 224, 211);
     text-align: center;
 
 
 }
 .contenido-principal{
     grid-area: contenido-principal;
-    background-color: rgb(152, 110, 190);
+    background-color: rgb(199, 180, 216);
     display: flex;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
@@ -32,7 +32,7 @@ min-height: 100vh;
 }
 .pie-de-pagina{
     grid-area: pie-de-pagina;
-    background-color: rgb(94, 94, 163);
+    background-color: rgb(120, 120, 158);
     text-align: center;
 }
 .navbar navbar-expand-lg bg-body-tertiary {
