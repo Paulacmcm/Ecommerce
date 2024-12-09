@@ -18,6 +18,8 @@ min-height: 100vh;
 .encabezado{
     grid-area: encabezado;
     background-color: bisque;
+    text-align: center;
+
 
 }
 .contenido-principal{
@@ -31,6 +33,7 @@ min-height: 100vh;
 .pie-de-pagina{
     grid-area: pie-de-pagina;
     background-color: rgb(94, 94, 163);
+    text-align: center;
 }
 .navbar navbar-expand-lg bg-body-tertiary {
     display:flex; 
